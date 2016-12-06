@@ -44,7 +44,6 @@ public class MainActivity extends ActionBarActivity implements
 
     private MainFragment mainFragment;
     private AboutMeFragment aboutMeFragment;
-    private WorkExperienceFragment workExperienceFragment;
     private ProjectExperienceFragment projectExperienceFragment;
     private EducationFragment educationFragment;
     private SkillsFragment skillsFragment;
@@ -68,7 +67,6 @@ public class MainActivity extends ActionBarActivity implements
 
         mainFragment = new MainFragment();
         aboutMeFragment = new AboutMeFragment();
-        workExperienceFragment = new WorkExperienceFragment();
         projectExperienceFragment = new ProjectExperienceFragment();
         educationFragment = new EducationFragment();
         skillsFragment = new SkillsFragment();
@@ -104,7 +102,6 @@ public class MainActivity extends ActionBarActivity implements
 
         PrimaryDrawerItem main = new PrimaryDrawerItem().withName("Home").withIdentifier(1).withIcon(GoogleMaterial.Icon.gmd_home);
         PrimaryDrawerItem aboutMe = new PrimaryDrawerItem().withName("About Me").withIdentifier(2).withIcon(GoogleMaterial.Icon.gmd_person);
-        final PrimaryDrawerItem workExperience = new PrimaryDrawerItem().withName("Work Experience").withIdentifier(3).withIcon(GoogleMaterial.Icon.gmd_work);
         PrimaryDrawerItem projectExperience = new PrimaryDrawerItem().withName("Project Experience").withIdentifier(4).withIcon(CommunityMaterial.Icon.cmd_settings_box);
         PrimaryDrawerItem education = new PrimaryDrawerItem().withName("Education").withIdentifier(5).withIcon(CommunityMaterial.Icon.cmd_school);
         PrimaryDrawerItem skills = new PrimaryDrawerItem().withName("Skills").withIdentifier(6).withIcon(CommunityMaterial.Icon.cmd_lightbulb);
@@ -120,7 +117,6 @@ public class MainActivity extends ActionBarActivity implements
                         main,
                         resumeSection,
                         aboutMe,
-                        workExperience,
                         projectExperience,
                         education,
                         skills,
@@ -141,9 +137,6 @@ public class MainActivity extends ActionBarActivity implements
                                 break;
                             case 2:
                                 fragmentTransaction(aboutMeFragment);
-                                break;
-                            case 3:
-                                fragmentTransaction(workExperienceFragment);
                                 break;
                             case 4:
                                 fragmentTransaction(projectExperienceFragment);
@@ -211,7 +204,6 @@ public class MainActivity extends ActionBarActivity implements
                 startActivity(webIntent);
                 break;
             }
-
         }
     }
 
@@ -233,7 +225,6 @@ public class MainActivity extends ActionBarActivity implements
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
