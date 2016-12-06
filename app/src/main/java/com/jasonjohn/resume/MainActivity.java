@@ -35,10 +35,10 @@ public class MainActivity extends ActionBarActivity implements
         SkillsFragment.OnFragmentInteractionListener {
 
 
-    public static final String URL_GITHUB = "https://github.com/jaytj95";
-    public static final String URL_LINKEDIN = "https://www.linkedin.com/in/jasonjohn95";
-    public static final String URL_EMAIL = "jasontjohn95@gmail.com";
-    public static final String PHONE = "tel:7704032529";
+    public static final String URL_GITHUB = "https://github.com/almaryo";
+    public static final String URL_LINKEDIN = "https://www.linkedin.com/in/alexmarty";
+    public static final String URL_EMAIL = "alexmarty01@gmail.com";
+    public static final String PHONE = "tel:0640740709";
 
     private Toolbar toolbar;
 
@@ -91,7 +91,7 @@ public class MainActivity extends ActionBarActivity implements
                 .withActivity(this)
                 .withHeaderBackground(R.drawable.space2)
                 .addProfiles(
-                        new ProfileDrawerItem().withName("Jason John").withEmail("jasontjohn95@gmail.com")
+                        new ProfileDrawerItem().withName("Alexandre Marty").withEmail("alexmarty01@gmail.com")
                                 .withIcon(getResources().getDrawable(R.drawable.jason_profile_2))
                 )
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
