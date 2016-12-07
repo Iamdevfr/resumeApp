@@ -102,7 +102,7 @@ public class MainActivity extends ActionBarActivity implements
 
         PrimaryDrawerItem main = new PrimaryDrawerItem().withName("Home").withIdentifier(1).withIcon(GoogleMaterial.Icon.gmd_home);
         PrimaryDrawerItem aboutMe = new PrimaryDrawerItem().withName("About Me").withIdentifier(2).withIcon(GoogleMaterial.Icon.gmd_person);
-        PrimaryDrawerItem projectExperience = new PrimaryDrawerItem().withName("Project Experience").withIdentifier(4).withIcon(CommunityMaterial.Icon.cmd_settings_box);
+        PrimaryDrawerItem projectExperience = new PrimaryDrawerItem().withName("Experiences").withIdentifier(4).withIcon(CommunityMaterial.Icon.cmd_settings_box);
         PrimaryDrawerItem education = new PrimaryDrawerItem().withName("Education").withIdentifier(5).withIcon(CommunityMaterial.Icon.cmd_school);
         PrimaryDrawerItem skills = new PrimaryDrawerItem().withName("Skills").withIdentifier(6).withIcon(CommunityMaterial.Icon.cmd_lightbulb);
         PrimaryDrawerItem resumePdf = new PrimaryDrawerItem().withName("PDF Version").withIdentifier(7).withIcon(GoogleMaterial.Icon.gmd_picture_as_pdf);
