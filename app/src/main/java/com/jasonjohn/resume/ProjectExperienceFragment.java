@@ -84,7 +84,7 @@ public class ProjectExperienceFragment extends Fragment {
 
         listAdapter = new ProjectExpAdapter(getActivity().getApplicationContext());
 
-        ProjExpObject beam = new ProjExpObject("Beam", "August 2015 - September 2015", R.drawable.proj_beam, R.string.beam, new int[]{R.drawable.proj_beam_1});
+        ProjExpObject beam = new ProjExpObject("Beam", "August 2015 - September 2015", R.drawable.proj_rappad, R.string.beam, new int[]{R.drawable.proj_beam_1});
         ProjExpObject unchained = new ProjExpObject("Unchained", "September 2015 - Present", R.drawable.proj_unchained, R.string.unchained, new int[]{R.drawable.proj_unchained_1,R.drawable.proj_unchained_2});
         ProjExpObject rappad = new ProjExpObject("RapPad", "Dec 2015 - Present", R.drawable.proj_rappad, R.string.rappad, new int[]{R.drawable.proj_rappad_1,R.drawable.proj_rappad_2,R.drawable.proj_rappad_3});
         ProjExpObject autotrader = new ProjExpObject("Digital Order Fulfillment (DOF)", "May 2015 - July 2016", R.drawable.work_autotrader, R.string.autotrader, new int[]{});
