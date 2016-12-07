@@ -107,8 +107,8 @@ public class MainActivity extends ActionBarActivity implements
         PrimaryDrawerItem skills = new PrimaryDrawerItem().withName("Skills").withIdentifier(6).withIcon(CommunityMaterial.Icon.cmd_lightbulb);
         PrimaryDrawerItem resumePdf = new PrimaryDrawerItem().withName("PDF Version").withIdentifier(7).withIcon(GoogleMaterial.Icon.gmd_picture_as_pdf);
 
-        SectionDrawerItem resumeSection = new SectionDrawerItem().withName("Jason John's Resume");
-        SectionDrawerItem contactSection = new SectionDrawerItem().withName("Contact Me");
+        SectionDrawerItem resumeSection = new SectionDrawerItem().withName("Alex Marty");
+        SectionDrawerItem contactSection = new SectionDrawerItem().withName("Contact");
         //create the drawer and remember the `Drawer` drawerPane object
         drawerPane = new DrawerBuilder()
                 .withActivity(this)
