@@ -87,8 +87,8 @@ public class MainFragment extends Fragment {
 
 
         Resources res = getResources();
-        bgImages = new Drawable[]{res.getDrawable(R.drawable.alex_marty_blur), res.getDrawable(R.drawable.alex_profile_2_blur),res.getDrawable(R.drawable.jason_profile_3_blur),res.getDrawable(R.drawable.alex_profile_3_blur)};
-        circleImages = new Drawable[]{res.getDrawable(R.drawable.alex_profile_2), res.getDrawable(R.drawable.jason_profile_3),res.getDrawable(R.drawable.alex_profile_3),res.getDrawable(R.drawable.alex_marty)};
+        bgImages = new Drawable[]{res.getDrawable(R.drawable.alex_marty_blur), res.getDrawable(R.drawable.alex_profile_2_blur),res.getDrawable(R.drawable.jason_profile_3_blur),res.getDrawable(R.drawable.alex_marty_blur)};
+        circleImages = new Drawable[]{res.getDrawable(R.drawable.alex_profile_2), res.getDrawable(R.drawable.jason_profile_3),res.getDrawable(R.drawable.alex_marty),res.getDrawable(R.drawable.alex_marty)};
         if(bgImages!= null && bgImages.length > 0) {
             setCarousel();
         }
