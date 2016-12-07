@@ -8,15 +8,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.Handler;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
-import com.squareup.picasso.Picasso;
-import com.synnapps.carouselview.CarouselView;
-import com.synnapps.carouselview.ImageListener;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -92,8 +87,8 @@ public class MainFragment extends Fragment {
 
 
         Resources res = getResources();
-        bgImages = new Drawable[]{res.getDrawable(R.drawable.jason_profile_blur), res.getDrawable(R.drawable.jason_profile_2_blur),res.getDrawable(R.drawable.jason_profile_3_blur),res.getDrawable(R.drawable.jason_profile_4_blur)};
-        circleImages = new Drawable[]{res.getDrawable(R.drawable.jason_profile_2), res.getDrawable(R.drawable.jason_profile_3),res.getDrawable(R.drawable.jason_profile_4),res.getDrawable(R.drawable.jason_profile)};
+        bgImages = new Drawable[]{res.getDrawable(R.drawable.alex_marty_blur), res.getDrawable(R.drawable.alex_profile_2_blur),res.getDrawable(R.drawable.jason_profile_3_blur),res.getDrawable(R.drawable.alex_profile_3_blur)};
+        circleImages = new Drawable[]{res.getDrawable(R.drawable.alex_profile_2), res.getDrawable(R.drawable.jason_profile_3),res.getDrawable(R.drawable.alex_profile_3),res.getDrawable(R.drawable.alex_marty)};
         if(bgImages!= null && bgImages.length > 0) {
             setCarousel();
         }

@@ -90,7 +90,7 @@ public class MainActivity extends ActionBarActivity implements
                 .withHeaderBackground(R.drawable.space2)
                 .addProfiles(
                         new ProfileDrawerItem().withName("Alexandre Marty").withEmail("alexmarty01@gmail.com")
-                                .withIcon(getResources().getDrawable(R.drawable.jason_profile_2))
+                                .withIcon(getResources().getDrawable(R.drawable.alex_profile_2))
                 )
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
@@ -107,8 +107,8 @@ public class MainActivity extends ActionBarActivity implements
         PrimaryDrawerItem skills = new PrimaryDrawerItem().withName("Skills").withIdentifier(6).withIcon(CommunityMaterial.Icon.cmd_lightbulb);
         PrimaryDrawerItem resumePdf = new PrimaryDrawerItem().withName("PDF Version").withIdentifier(7).withIcon(GoogleMaterial.Icon.gmd_picture_as_pdf);
 
-        SectionDrawerItem resumeSection = new SectionDrawerItem().withName("Alex Marty");
-        SectionDrawerItem contactSection = new SectionDrawerItem().withName("Contact");
+        SectionDrawerItem resumeSection = new SectionDrawerItem().withName("Alex Marty's resume");
+        SectionDrawerItem contactSection = new SectionDrawerItem().withName("Contact me");
         //create the drawer and remember the `Drawer` drawerPane object
         drawerPane = new DrawerBuilder()
                 .withActivity(this)
@@ -189,7 +189,7 @@ public class MainActivity extends ActionBarActivity implements
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
                 i.putExtra(Intent.EXTRA_EMAIL  , new String[]{url});
-                i.putExtra(Intent.EXTRA_SUBJECT, "Hello from Material Resume!");
+                i.putExtra(Intent.EXTRA_SUBJECT, "Hello from Alex Marty Resume!");
                 i.putExtra(Intent.EXTRA_TEXT, "Say something nice...");
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));

@@ -85,11 +85,11 @@ public class ProjectExperienceFragment extends Fragment {
         listAdapter = new ProjectExpAdapter(getActivity().getApplicationContext());
 
         ProjExpObject pvt = new ProjExpObject("PVT Australie", "2012 - 2013", R.drawable.australia_flag, R.string.austra, new int[]{});
-        ProjExpObject unchained = new ProjExpObject("Etudes sociologie", "2008-2011", R.drawable.proj_paulva, R.string.unchained, new int[]{});
-        ProjExpObject experts = new ProjExpObject("Experts-solidaires", "Mai 2014 - mars 2015", R.drawable.proj_experts_solidaires, R.string.experts_solidaires, new int[]{R.drawable.proj_experts_1,R.drawable.proj_experts_2,R.drawable.proj_experts_3});
-        ProjExpObject hb = new ProjExpObject("Formation Android / IOS", "Septembre 2016 - Decembre 2016", R.drawable.proj_hb, R.string.autotrader, new int[]{});
+        ProjExpObject unchained = new ProjExpObject("Etudes sociologie", "2008 - 2011", R.drawable.proj_paulva, R.string.unchained, new int[]{});
+        ProjExpObject experts = new ProjExpObject("Experts-solidaires", "2014 - 2015", R.drawable.proj_experts_solidaires, R.string.experts_solidaires, new int[]{R.drawable.proj_experts_1,R.drawable.proj_experts_2,R.drawable.proj_experts_3});
+        ProjExpObject hb = new ProjExpObject("Formation Android / IOS", "2016 - 2016", R.drawable.proj_hb, R.string.autotrader, new int[]{});
         ProjExpObject kawenga = new ProjExpObject("Kawenga", "2011", R.drawable.proj_kawenga, R.string.kawenga, new int[]{R.drawable.proj_kaw_2,R.drawable.proj_kaw_1,R.drawable.proj_kaw_3});
-        ProjExpObject rave = new ProjExpObject("Formation webmarketing", "Janvier 2014 - Avril 2014", R.drawable.proj_obj3, R.string.obj3, new int[]{});
+        ProjExpObject rave = new ProjExpObject("Formation webmarketing", " 2014", R.drawable.proj_obj3, R.string.obj3, new int[]{});
         listData = new ArrayList<>();
         listData.addAll(Arrays.asList(hb, experts, kawenga, rave, pvt, unchained));
         listAdapter.addAll(listData);
