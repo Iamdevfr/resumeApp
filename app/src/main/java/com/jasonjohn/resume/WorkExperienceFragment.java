@@ -91,7 +91,7 @@ public class WorkExperienceFragment extends Fragment {
         listAdapter = new WorkExpAdapter(getActivity().getApplicationContext());
 
         int[] stringRes = new int[]{R.string.autotrader_1, R.string.autotrader_2};
-        WorkExpObject autotrader = new WorkExpObject("Associate Software Engineer", "AutoTrader", R.drawable.work_autotrader, stringRes);
+        WorkExpObject autotrader = new WorkExpObject("Associate Software Engineer", "AutoTrader", R.drawable.proj_hb, stringRes);
 
         stringRes = new int[]{R.string.ncr_1};
         WorkExpObject ncr = new WorkExpObject("Embedded Software Engineer", "NCR Corp.", R.drawable.work_ncr, stringRes);

@@ -84,12 +84,12 @@ public class ProjectExperienceFragment extends Fragment {
 
         listAdapter = new ProjectExpAdapter(getActivity().getApplicationContext());
 
-        ProjExpObject beam = new ProjExpObject("Beam", "August 2015 - September 2015", R.drawable.proj_rappad, R.string.beam, new int[]{R.drawable.proj_beam_1});
+        ProjExpObject beam = new ProjExpObject("Beam", "August 2015 - September 2015", R.drawable.proj_experts_solidaires, R.string.beam, new int[]{R.drawable.proj_hb});
         ProjExpObject unchained = new ProjExpObject("Unchained", "September 2015 - Present", R.drawable.proj_unchained, R.string.unchained, new int[]{R.drawable.proj_unchained_1,R.drawable.proj_unchained_2});
-        ProjExpObject rappad = new ProjExpObject("RapPad", "Dec 2015 - Present", R.drawable.proj_rappad, R.string.rappad, new int[]{R.drawable.proj_rappad_1,R.drawable.proj_rappad_2,R.drawable.proj_rappad_3});
-        ProjExpObject autotrader = new ProjExpObject("Digital Order Fulfillment (DOF)", "May 2015 - July 2016", R.drawable.work_autotrader, R.string.autotrader, new int[]{});
-        ProjExpObject carspotters = new ProjExpObject("CarSpotters", "Current Project", R.drawable.proj_carspotters, R.string.carspotters, new int[]{R.drawable.proj_carspotters_2,R.drawable.proj_carspotters_1,R.drawable.proj_carspotters_3});
-        ProjExpObject rave = new ProjExpObject("Rave Music Player", "Current Project", R.drawable.proj_rave, R.string.rave, new int[]{R.drawable.proj_rave_1,R.drawable.proj_rave_2});
+        ProjExpObject rappad = new ProjExpObject("Experts-solidaires", "Mai 2014 - mars 2015", R.drawable.proj_experts_solidaires, R.string.experts_solidaires, new int[]{R.drawable.proj_experts_1,R.drawable.proj_experts_2,R.drawable.proj_experts_3});
+        ProjExpObject autotrader = new ProjExpObject("Formation Android / IOS", "Septembre 2016 - Decembre 2016", R.drawable.proj_hb, R.string.autotrader, new int[]{});
+        ProjExpObject carspotters = new ProjExpObject("Kawenga", "2011", R.drawable.proj_kawenga, R.string.carspotters, new int[]{R.drawable.proj_kaw_2,R.drawable.proj_kaw_1,R.drawable.proj_kaw_3});
+        ProjExpObject rave = new ProjExpObject("Formation webmarketing", "Janvier 2014 - Avril 2014", R.drawable.proj_obj3, R.string.obj3, new int[]{R.drawable.proj_obj3_1,R.drawable.proj_obj3_2});
         listData = new ArrayList<>();
         listData.addAll(Arrays.asList(autotrader, rappad, carspotters, rave, beam, unchained));
         listAdapter.addAll(listData);
