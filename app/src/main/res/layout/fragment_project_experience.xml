@@ -10,5 +10,7 @@
         android:divider="@android:color/transparent"
         android:dividerHeight="25dp"
         android:padding="8dp"
-        android:id="@+id/listview"></ListView>
+        android:id="@+id/listview">
+
+    </ListView>
 </LinearLayout>
