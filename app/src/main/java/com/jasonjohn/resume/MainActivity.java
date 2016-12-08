@@ -90,7 +90,7 @@ public class MainActivity extends ActionBarActivity implements
                 .withHeaderBackground(R.drawable.space2)
                 .addProfiles(
                         new ProfileDrawerItem().withName("Alexandre Marty").withEmail("alexmarty01@gmail.com")
-                                .withIcon(getResources().getDrawable(R.drawable.alex_profile_2))
+                                .withIcon(getResources().getDrawable(R.drawable.alex_profile_drawer))
                 )
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override

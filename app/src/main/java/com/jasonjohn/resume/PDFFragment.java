@@ -41,7 +41,7 @@ public class PDFFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_pdf, container, false);
         pdfView = (PDFView) rootView.findViewById(R.id.pdfView);
         pdfView.fromAsset("resume.pdf").load();
-        
+
         return rootView;
     }
 
