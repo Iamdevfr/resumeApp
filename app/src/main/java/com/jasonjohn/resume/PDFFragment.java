@@ -41,19 +41,7 @@ public class PDFFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_pdf, container, false);
         pdfView = (PDFView) rootView.findViewById(R.id.pdfView);
         pdfView.fromAsset("resume.pdf").load();
-
-        downloadFab = (FloatingActionButton) rootView.findViewById(R.id.download_fab);
-        downloadFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    copyAssets();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-
+        
         return rootView;
     }
 
