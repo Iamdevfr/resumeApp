@@ -189,7 +189,7 @@ public class MainActivity extends ActionBarActivity implements
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
                 i.putExtra(Intent.EXTRA_EMAIL  , new String[]{url});
-                i.putExtra(Intent.EXTRA_SUBJECT, "Hello from Alex Marty Resume!");
+                i.putExtra(Intent.EXTRA_SUBJECT, "Hello from Alex Marty's Resume!");
                 i.putExtra(Intent.EXTRA_TEXT, "Say something nice...");
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
